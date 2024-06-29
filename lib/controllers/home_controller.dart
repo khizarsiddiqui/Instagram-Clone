@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 
-import '../model/home_model.dart';
+import '../models/home_model.dart';
 
 class HomeController extends GetxController {
   var isLoading = false.obs;

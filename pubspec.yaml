@@ -38,6 +38,12 @@ dependencies:
   get: ^4.6.6
   http: ^1.2.1
   image_picker: ^1.1.2
+  tuple: ^2.0.2
+  flutter_svg: ^2.0.10+1
+  loading_animation_widget: ^1.2.1
+  flutter_staggered_grid_view: ^0.7.0
+  masonry_list_view_grid: ^1.0.1
+  cached_network_image: ^3.3.1
 
 dev_dependencies:
   flutter_test:
@@ -62,7 +68,13 @@ flutter:
   uses-material-design: true
   
   assets:
-   - assets/images/insta_logo.png
+   - assets/images/
+   - assets/sample/
+  #  - assets/images/image1.jpg
+  #  - assets/images/image2.jpg
+  #  - assets/images/image3.jpg
+  #  - assets/images/image4.jpg
+  #  - assets/images/image5.jpg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
